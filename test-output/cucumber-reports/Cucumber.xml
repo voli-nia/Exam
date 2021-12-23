@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.65">
+    <testcase classname="Login with a valid credentials" name="Changing language" time="9.176">
+        <system-out><![CDATA[Given the user is on main page..............................................passed
+When the user clicks on language button.....................................passed
+Then the language is changed................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

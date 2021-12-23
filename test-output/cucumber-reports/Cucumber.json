@@ -1,0 +1,138 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-21T16:44:28.429Z",
+        "before": [
+          {
+            "result": {
+              "duration": 757063100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.step_it.hooks.TestHook.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 5319991900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.step_it.hooks.TestHook.startBrowser()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Changing language",
+        "description": "",
+        "id": "login-with-a-valid-credentials;changing-language",
+        "after": [
+          {
+            "result": {
+              "duration": 400714900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.step_it.hooks.TestHook.driverTearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2994400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.step_it.hooks.TestHook.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 264412100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user is on main page",
+            "match": {
+              "location": "com.step_it.step_definitions.CommonDefinitions.theUserIsOnMainPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1986700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step_it.hooks.TestHook.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1981860800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user clicks on language button",
+            "match": {
+              "location": "com.step_it.step_definitions.CommonDefinitions.theUserClicksOnLanguageButton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 996900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step_it.hooks.TestHook.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 259396600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the language is changed",
+            "match": {
+              "location": "com.step_it.step_definitions.CommonDefinitions.theLanguageIsChanged()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1984700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.step_it.hooks.TestHook.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Start"
+          }
+        ]
+      }
+    ],
+    "name": "Login with a valid credentials",
+    "description": "  As a customer I want to login with a valid credentials",
+    "id": "login-with-a-valid-credentials",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login/Login.feature",
+    "tags": []
+  }
+]
